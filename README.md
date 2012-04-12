@@ -6,7 +6,7 @@ This Launch Daemon adds DuckDuckGo support to Safari by editing the /etc/hosts f
 
 How To Install
 --------------
-1. Copy the file into /Library/LaunchDaemons/.
+1. Copy the com.mattmorris.duckduckgo.plist into /Library/LaunchDaemons/.
 2. Reboot [OR] Type the following command in terminal:
 
 `sudo launchctl load /Library/LaunchDaemons/com.mattmorris.duckduckgo`
@@ -14,7 +14,7 @@ How To Install
 
 How to Uninstall
 ----------------
-1. Remove the file: /Library/LaunchDaemons/com.mattmorris.duckduckgo
+1. Remove the file: /Library/LaunchDaemons/com.mattmorris.duckduckgo.plist
 2. Reboot [OR] Type the following command in terminal:
 
 `sudo launchctl remove com.mattmorris.duckduckgo`
