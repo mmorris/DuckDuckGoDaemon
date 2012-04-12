@@ -8,14 +8,14 @@ How To Install
 --------------
 1. Copy the file into /Library/LaunchDaemons/.
 2. Reboot [OR] Type the following command in terminal:
-sudo launchctl load /Library/LaunchDaemons/com.mattmorris.duckduckgo
+`sudo launchctl load /Library/LaunchDaemons/com.mattmorris.duckduckgo`
 
 
 How to Uninstall
 ----------------
 1. Remove the file: /Library/LaunchDaemons/com.mattmorris.duckduckgo
 2. Reboot [OR] Type the following command in terminal
-sudo launchctl remove com.mattmorris.duckduckgo
+`sudo launchctl remove com.mattmorris.duckduckgo`
 
 
 Why isn't it sufficient to just manually edit /etc/hosts file?
