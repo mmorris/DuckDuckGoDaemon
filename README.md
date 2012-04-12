@@ -22,6 +22,6 @@ How to Uninstall
 
 Why isn't it sufficient to just manually edit /etc/hosts file?
 --------------------------------------------------------------
-I made this a Launch Daemon b/c I noticed some 3rd party applications tweak /etc/hosts to suit their needs, often removing custom entries. This daemon will continue to watch the /etc/hosts file and will add the entry back instantly if the file is reset by a 3rd party application.
+Some 3rd party applications tweak /etc/hosts to suit their needs, often removing custom entries. This daemon will continue to watch the /etc/hosts file and will add the entry back instantly if the file is reset by a 3rd party application.
 
 The Cisco VPN client is the most notable example. Yes, you can just add the custom entry to /etc/hosts.ac, but if the software is uninstalled/reinstalled it will get overwritten again.
