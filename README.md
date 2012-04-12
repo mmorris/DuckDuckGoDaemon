@@ -14,7 +14,7 @@ How To Install
 How to Uninstall
 ----------------
 1. Remove the file: /Library/LaunchDaemons/com.mattmorris.duckduckgo
-2. Reboot [OR] Type the following command in terminal
+2. Reboot [OR] Type the following command in terminal:
 `sudo launchctl remove com.mattmorris.duckduckgo`
 
 
