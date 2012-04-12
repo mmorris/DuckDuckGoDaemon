@@ -11,7 +11,7 @@ How To Install
 
 `sudo launchctl load /Library/LaunchDaemons/com.mattmorris.duckduckgo`
 
-*Note:* Don't forget to go to Safari Preferences and select Yahoo! as the Default Search Engine.
+**Note:** Don't forget to go to Safari Preferences and select Yahoo! as the Default Search Engine.
 
 How to Uninstall
 ----------------
