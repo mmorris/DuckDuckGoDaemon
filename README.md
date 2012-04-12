@@ -9,7 +9,7 @@ How To Install
 1. Copy the com.mattmorris.duckduckgo.plist into /Library/LaunchDaemons/.
 2. Reboot [OR] Type the following command in terminal:
 
-`sudo launchctl load /Library/LaunchDaemons/com.mattmorris.duckduckgo`
+`sudo launchctl load /Library/LaunchDaemons/com.mattmorris.duckduckgo.plist`
 
 **Note:** Don't forget to go to Safari Preferences and select Yahoo! as the Default Search Engine.
 
